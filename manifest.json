@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark",
+  "version": "1.0.0",
+  "description": "A simple and effective bookmark manager to save, search, and organize your bookmarks.",
+  "action": {
+    "default_icon": {              
+      "16": "bookmark_logo.png",   
+      "24": "bookmark_logo.png",  
+      "32": "bookmark_logo.png"   
+    },
+    "default_popup": "index.html"  
+  },
+  "permissions": [
+    "tabs"
+  ]
+}

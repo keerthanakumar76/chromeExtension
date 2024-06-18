@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome Extension</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" placeholder="Enter your url" id="input-url" />
+      <button id="addUrl">Bookmark</button>
+      <button id="deleteUrl">Clear All</button>
+      <input type="text" placeholder="Search bookmarks.." id="search" />
+      <select id="sortOptions">
+        <option value="date">Sort by Date</option>
+        <option value="name">Sort by Name</option>
+      </select>
+      <!-- message to know whether bookmark is present already or not -->
+      <span id="alertDisplay"></span>
+      <div class="displayUrl" id="displayUrl-id"></div>
+    </div>
+    <!-- script file -->
+    <script src="script.js"></script>
+  </body>
+</html>
