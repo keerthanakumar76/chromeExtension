@@ -4,7 +4,7 @@ A simple and effective Chrome extension to save, search, and organize your bookm
 
 ## Features
 
-- Save bookmarks with custom notes
+- Save bookmarks
 - Search through your bookmarks
 - Sort bookmarks by date or name
 - Delete individual bookmarks
